@@ -31,10 +31,5 @@ def position_taken?(board, index)
 end
 
 def turn(board)
-  loop do
-    turn(board) += 1
   puts "Please enter 1-9:"
-  if turn(board) >= 9
-    break
-  end
 end
